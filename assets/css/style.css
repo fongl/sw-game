@@ -1,0 +1,39 @@
+
+body{
+    background-image: url(../images/star.jpg) !important ;
+}
+
+
+.btn {
+    background-color:transparent;
+    border-color:transparent;
+    margin:0;
+    height:auto;
+    width:auto;
+}
+.btn :hover {
+    background-color:white !important; 
+}
+.btn-primary {
+    background-color:transparent;
+    border-color:green;
+    margin:0;
+    height:auto;
+    width:auto;
+    color:green;
+    font-size:36px;
+}
+.btn-primary:hover {
+    background-color:green !important;;
+}
+.number:hover {
+    background-color:white !important;;
+}
+
+#top {
+    color:white !important;
+}
+#topIn {
+    color:white;
+}
+

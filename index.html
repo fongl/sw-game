@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>starwars</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 id="top">Star Wars RPG</h1>
+                <p id="topIn">Instructions: Pick a hero to be your champion, try to defeat all other heroes in any order you see fit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 id="cm1" class="panel-title"></h3>
+                    </div>
+                    <div class="panel-heading">
+                        <h3 id="cm2" class="panel-title"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Your Guy</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h1 id="player"></h1>
+                        <button id="attack" class="btn btn-default btn-primary" value="5">
+                            Attack
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"> Current Opponent</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h1 id="oppoPanel"></h1>
+                        <h1 id="opponent"></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Population</h3>
+                    </div>
+                    <div class="panel-body">
+                        <button class="btn number" value="0">
+                            <img src="assets/images/luke.jpg" id="lukeJpg" class="img-thumbnail" alt="luke" longdesc="0">
+                        </button>
+                        <button class="btn number" value="1">
+                            <img src="assets/images/obi.jpg" id="obiJpg" class="img-thumbnail" alt="obi" longdesc="1">
+                        </button>
+                        <button class="btn number" value="2">
+                            <img src="assets/images/maul.jpg" id="maulJpg" class="img-thumbnail" alt="maul" longdesc="2">
+                        </button>
+                        <button class="btn number" value="3">
+                            <img src="assets/images/vader.jpg" id="vaderJpg" class="img-thumbnail" alt="vader" longdesc="3">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
